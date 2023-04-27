@@ -1,6 +1,6 @@
 
 
-service: my-express-app
+service: my-express-app-test
 frameworkVersion: '2 || 3'
 
 

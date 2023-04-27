@@ -1,6 +1,6 @@
-name: aws-node-express-api
-org: serverlessinc
-description: Deploys a Node Express API service with Serverless Framework
+name: my-express-app-test
+org: piter
+description: test
 keywords: aws, serverless, faas, lambda, node, express
-repo: https://github.com/serverless/examples/aws-node-express-api
+repo: https://github.dev/litisrael/drivers-test
 license: MIT
