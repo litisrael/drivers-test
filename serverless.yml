@@ -12,6 +12,7 @@ provider:
 functions:
   api:
     handler: /src/index.handler
-      events:
+    events:
       - httpApi: '*'
+
       
