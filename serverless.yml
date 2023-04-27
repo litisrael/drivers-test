@@ -1,18 +1,16 @@
-
-
 service: my-express-app-test
-frameworkVersion: '2 || 3'
-
 
 provider:
   name: aws
   runtime: nodejs14.x
   region: us-east-1
-
+  httpApi:
+    useHttp: true
+    
 functions:
   api:
-    handler: src/index.js.handler
+    handler: src/index.main
     events:
-      - httpApi: '*'
-
-      
+      - http:
+          path: /
+          method: ANY
