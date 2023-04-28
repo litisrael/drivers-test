@@ -5,10 +5,12 @@ import { initRouterDriver } from "./api/app.js";
 
 
 
-
+export async function main() {
   const app = await  initRouterDriver();
+const all =  serverless(app)
+return all
+}
 
-module.exports.handler = serverless(app)
 
 
 // async function main() {
